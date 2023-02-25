@@ -1,0 +1,113 @@
+# $badfilter
+/(https?:\/\/)213\.32\.115\..{100,}/$badfilter
+/(https?:\/\/)217\.182\.11\..{100,}/$badfilter
+/(https?:\/\/)51\.195\.31\..{100,}/$badfilter
+/[a-z]{3}gov\.(com|tv|me|top)/$badfilter
+/butie\S+\.(shop|xyz)/$badfilter
+/tw.{3}gov\.com/$badfilter
+/tw\S{2}gov\.com/$badfilter
+/wsf.+gov\.xyz/$badfilter
+# 微軟 https://learn.microsoft.com/zh-tw/windows/privacy/manage-windows-21h2-endpoints
+# Malvertising
+# 23.106.{103, 127}.* | 23.109.{82, 87, 150, 170, 248}.* | 142.91.159.* | 172.255.6.* -> imgsto ads
+# 45.133.44.{24, 25} -> cdn28786515.ahacdn.me -> 471e551e89.5046cbfcf4.com|5265c011ae.60b8fe6ea3.com 更多看ABPVN，封IP會封到正常網域。
+# 46.229.171.{20, 26}[Cloudflare] | 88.208.59.{102, 103}[ECS] -> 21689.*.com
+# 188.42.84.{71, 74, 82} | 203.195.121.* -> omervagant.com -> adwx6vcj.com
+# 192.243.{59, 61} |  173.233.{137, 139} -> pk3534.preparemethod.com
+# 216.21.13.{14, 15} -> Annoying shit
+# https://imgrock.net/7p67aebrceoz/ZMEN-081_s.jpg.html | https://imgrock.net/s4u9d4m7hgvp/IPX-558_s.jpg.html | imgrock.net -> picrok.com -> tezzpic.com
+|23.106.127.
+|23.108.103.
+|23.109.82.
+|23.109.87.
+|23.109.150.
+|23.109.170.
+|23.109.248.
+|46.229.171.
+|88.208.59.
+|142.91.159.
+|172.255.6.
+|173.233.137.
+|173.233.139.
+|188.42.84.
+|192.243.59.
+|192.243.61.
+|203.195.121.
+|216.21.13.
+||spiderhannahresidential.com^
+||surprisingarsonistcooperate.com^
+# 垃圾
+|*dating*.
+|*edu.$denyallow=edu|edu.au|edu.cn|edu.hk|edu.sg|edu.tw|edu.uk
+|*fzzx.
+|*gov.$denyallow=gov|gov.au|gov.cn|gov.hk|gov.sg|gov.tw|gov.uk
+|*jbzx.
+|*syndicat*.
+|*telemetry.
+|*tongji.
+|gg*.whoscall.com^
+||accounts.douban.com^
+||accuhit.
+||ad.
+||ads.
+||afdback.
+||beian.
+||blogtj.sinajs.cn^
+||cdn.bcebos.com^$denyallow=bkhk.cdn.bcebos.com|bkimg.cdn.bcebos.com|iknow-pic.cdn.bcebos.com
+||cyberpolice.cn^
+||detectportal.firefox.com^
+||dht.aelitis.com^$dnsrewrite=NOERROR
+||dht.vuze.com^$dnsrewrite=NOERROR
+||edna.yahoo.net^
+||gomediago.baidu.com^
+||ip-api.com^
+||ip.geo.iqiyi.com^
+||ip138.com^
+||ip2location.com^
+||ipip.net^
+||nel.cloudflare.com^
+||nelreports.net^
+||passport.baidu.com^
+||passport.bdimg.com^
+||promo.yahoo.com^
+||qhimg.com^
+||report-uri.
+||reports.baidu.com^
+||sec.douban.com^
+||seo.
+||ssp.
+||tbmsg.baidu.com^
+||tj.
+||tongdun.net^
+||use-application-dns.net^
+||usefulcontentsites.com^
+||w3-reporting-nel.reddit.com^
+||wappass.baidu.com^
+||xlab.baidu.com^
+||yunaq.com^
+||zhanzhang.
+||zx110.org^
+# 釣魚
+# 正規蝦皮(1個o、2個e)：shopee.com|shopeemobile.com；或帶各國家頂級域名shopee.cn|shopee.sg|shopee.tw|shopee.vn
+# https://www.plurk.com/p/os7iev
+# https://www.ptt.cc/bbs/Gossiping/M.1649334548.A.F4D.html
+# https://www.coolpc.com.tw/tw/shop/welcome-to-coolpc/fake-coolpc/
+# 45.58.45.86 -> tw-beaxfun.fun | 47.241.17.231 -> shop.qqffgg.top
+# bancfun-tw.online|banefan.online|beasfun-tw.online|benafcn.fun|benafon.online|benefun-tw.fun|qqffgg.top|shope-tw.shop|tw-baenfun.online|tw-beaxfun.fun
+|*tw*.fun^
+|*tw*.online^
+|*tw*.shop^
+|*tw*.store^
+|*tw*.top^
+|*tw*.xyz^
+|*butie*.shop^
+|*butie*.xyz^
+|45.58.45.86^
+|47.241.17.231^
+||b*n*f*n.fun^
+||b*n*f*n.online^
+||b*n*f*n.shop^
+||b*n*f*n.store^
+||b*n*f*n.top^
+||b*n*f*n.xyz^
+||line.kim^

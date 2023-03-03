@@ -1,4 +1,3 @@
-$1p,3p,frame,~image,script,~stylesheet,xhr,domain=buzz|cfd|fun|icu|online|pro|shop|site|store|top|xyz
 @@||fonts.gstatic.com/s/material$font
 @@||fonts.gstatic.com^$badfilter
 ||fonts.gstatic.com/s/$font,domain=~google.com|~youtube.com

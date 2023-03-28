@@ -45,7 +45,7 @@
 ||afdback.
 ||beian.
 ||blogtj.sinajs.cn^
-||cdn.bcebos.com^$denyallow=bkhk.cdn.bcebos.com|bkimg.cdn.bcebos.com|iknow-pic.cdn.bcebos.com
+||cdn.bcebos.com^$denyallow=bkhk.cdn.bcebos.com|bkimg.cdn.bcebos.com|contentcms-bj.cdn.bcebos.com|iknow-pic.cdn.bcebos.com|news-bos.cdn.bcebos.com
 ||cyberpolice.cn^
 ||detectportal.firefox.com^
 ||dht.aelitis.com^$dnsrewrite=NOERROR

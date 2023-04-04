@@ -30,9 +30,8 @@
 ||surprisingarsonistcooperate.com^
 # 垃圾
 |*dating*.
-|*edu.$denyallow=edu|edu.au|edu.cn|edu.hk|edu.sg|edu.tw|edu.uk
 |*fzzx.
-|*gov.$denyallow=gov|gov.au|gov.cn|gov.hk|gov.sg|gov.tw|gov.uk
+|*gov.$denyallow=gov|gov.au|gov.cn|gov.hk|gov.sg|gov.taipei|gov.tw|gov.uk
 |*jbzx.
 |*syndicat*.
 |*telemetry.

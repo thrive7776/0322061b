@@ -26,8 +26,6 @@
 |192.243.61.
 |203.195.121.
 |216.21.13.
-||spiderhannahresidential.com^
-||surprisingarsonistcooperate.com^
 # 垃圾
 |*dating*.
 |*fzzx.
@@ -46,7 +44,6 @@
 ||blogtj.sinajs.cn^
 ||cdn.bcebos.com^$denyallow=bkhk.cdn.bcebos.com|bkimg.cdn.bcebos.com|contentcms-bj.cdn.bcebos.com|iknow-pic.cdn.bcebos.com|news-bos.cdn.bcebos.com
 ||cyberpolice.cn^
-||detectportal.firefox.com^
 ||dht.aelitis.com^$dnsrewrite=NOERROR
 ||dht.vuze.com^$dnsrewrite=NOERROR
 ||edna.yahoo.net^

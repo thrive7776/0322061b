@@ -7,6 +7,7 @@
 /tw.{3}gov\.com/$badfilter
 /tw\S{2}gov\.com/$badfilter
 /wsf.+gov\.xyz/$badfilter
+||msg.ettoday.net^$badfilter
 # Malvertising
 |23.106.127.
 |23.108.103.

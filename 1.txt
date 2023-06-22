@@ -1,6 +1,6 @@
 ##[class$="-ad"]
 ##[class$="-ads"]
-##[class*="adTranslate"]
+##[class*="\$ad"]
 ##[id$="-ad"]
 ##[id$="-ads"]
 ##body:style(overflow: auto !important;)

@@ -1,3 +1,9 @@
+##[class$="-ad"]
+##[class$="-ads"]
+##[class*="adTranslate"]
+##[id$="-ad"]
+##[id$="-ads"]
+##body:style(overflow: auto !important;)
 @@||fonts.gstatic.com/s/material$font
 @@||fonts.gstatic.com^$badfilter
 ||fonts.gstatic.com/s/$font,domain=~google.com|~youtube.com

@@ -43,7 +43,7 @@
 # 垃圾
 |*dating*.
 |*fzzx.
-|*gov.$denyallow=gov|gov.au|gov.cn|gov.hk|gov.sg|gov.taipei|gov.translate.goog|gov.tw|gov.uk
+|*gov.$denyallow=gov|gov.au|gov.cn|gov.hk|gov.sg|gov.taipei|gov.tw|gov.uk|translate.goog
 |*jbzx.
 |*syndicat*.
 |*telemetry.

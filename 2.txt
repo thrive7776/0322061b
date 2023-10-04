@@ -8,10 +8,11 @@
 /tw\S{2}gov\.com/$badfilter
 /wsf.+gov\.xyz/$badfilter
 @@/\.gov(\.(au|cn|hk|sg|taipei|tw|uk))?$/
-@@/^(gimg|gs[ps]|pics|t)\d*\.baidu\.com$/
+@@/^(g?img|gips|gs[ps]|[it]|pics)\d*\.baidu\.com$/
+@@|baidu.com^
 ||msg.ettoday.net^$badfilter
 # 百度 {gomediago, passport, reports, tbmsg, wappass, xla} baidu.com ||passport.bdimg.com^
-||baidu.com^$denyallow=baijiahao.baidu.com|baike.baidu.com|bk.baidu.com|hiphotos.baidu.com|iknow.baidu.com|image.baidu.com|img.baidu.com|imgsa.baidu.com|ipv6.baidu.com|jingyan.baidu.com|passport.baidu.com|share.baidu.com|static.baidu.com|tbmsg.baidu.com|tieba.baidu.com|tiebapic.baidu.com|wapbaike.baidu.com|wappass.baidu.com|www.baidu.com|zhidao.baidu.com
+||baidu.com^$denyallow=baijiahao.baidu.com|baike.baidu.com|bk.baidu.com|haokan.baidu.com|hiphotos.baidu.com|home.baidu.com|iknow.baidu.com|image.baidu.com|img.baidu.com|imgsa.baidu.com|ipv6.baidu.com|jingyan.baidu.com|m.baidu.com|map.baidu.com|news.baidu.com|pan.baidu.com|passport.baidu.com|share.baidu.com|static.baidu.com|tbmsg.baidu.com|tieba.baidu.com|tiebapic.baidu.com|wapbaike.baidu.com|wappass.baidu.com|www.baidu.com|zhidao.baidu.com
 # Mozilla
 ||use-application-dns.net^
 # Malvertising
@@ -60,7 +61,7 @@
 ||afdback.
 ||beian.
 ||blogtj.sinajs.cn^
-||cdn.bcebos.com^$denyallow=bkhk.cdn.bcebos.com|bkimg.cdn.bcebos.com|contentcms-bj.cdn.bcebos.com|iknow-pic.cdn.bcebos.com|news-bos.cdn.bcebos.com
+||cdn.bcebos.com^$denyallow=bkhk.cdn.bcebos.com|bkimg.cdn.bcebos.com|contentcms-bj.cdn.bcebos.com|iknow-pic.cdn.bcebos.com|news-bos.cdn.bcebos.com|tieba-ares.cdn.bcebos.com
 ||cyberpolice.cn^
 ||dht.aelitis.com^$dnsrewrite=NOERROR
 ||dht.vuze.com^$dnsrewrite=NOERROR

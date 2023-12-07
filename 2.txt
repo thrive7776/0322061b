@@ -12,7 +12,7 @@
 @@|baidu.com^
 ||msg.ettoday.net^$badfilter
 # 百度 {gomediago, passport, reports, tbmsg, wappass, xla} baidu.com ||passport.bdimg.com^
-||baidu.com^$denyallow=baijiahao.baidu.com|baike.baidu.com|bk.baidu.com|haokan.baidu.com|hiphotos.baidu.com|home.baidu.com|iknow.baidu.com|image.baidu.com|img.baidu.com|imgsa.baidu.com|ipv6.baidu.com|jingyan.baidu.com|m.baidu.com|map.baidu.com|news.baidu.com|pan.baidu.com|passport.baidu.com|share.baidu.com|static.baidu.com|tbmsg.baidu.com|tieba.baidu.com|tiebapic.baidu.com|wapbaike.baidu.com|wappass.baidu.com|www.baidu.com|zhidao.baidu.com
+||baidu.com^$denyallow=b2b.baidu.com|baijiahao.baidu.com|baike.baidu.com|bk.baidu.com|haokan.baidu.com|hiphotos.baidu.com|home.baidu.com|iknow.baidu.com|image.baidu.com|img.baidu.com|imgsa.baidu.com|imgsrc.baidu.com|ipv6.baidu.com|jingyan.baidu.com|m.baidu.com|map.baidu.com|news.baidu.com|pan.baidu.com|passport.baidu.com|share.baidu.com|static.baidu.com|tbmsg.baidu.com|tieba.baidu.com|tiebapic.baidu.com|wapbaike.baidu.com|wappass.baidu.com|www.baidu.com|zhidao.baidu.com
 # Mozilla
 ||use-application-dns.net^
 # Malvertising

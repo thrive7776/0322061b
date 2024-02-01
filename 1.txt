@@ -6,3 +6,6 @@
 ##body:style(overflow: auto !important;)
 @@||gifshow.com/rest/kd/log/collect?v=$xhr
 @@||ksapisrv.com/rest/kd/log/collect?v=$xhr
+youtu.be,youtube.*##+js(nano-stb, resolve(1), *, 0.02)
+youtu.be,youtube.*##.ytp-chrome-top
+youtu.be,youtube.*##.ytp-gradient-top

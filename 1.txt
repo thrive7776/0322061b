@@ -1,14 +1,8 @@
-##[class$="-ads"]
-##[class^="ad-"]
-##[class^="ads-"]
-##[id$="-ads"]
-##[id^="ad-"]
-##[id^="ads-"]
-##body:style(overflow: auto !important;)
 /*csp*report$all
 /*error*report$all
 /advertise$all
 /doubanio\.com\/\w{64,}/$script
+/*getheaderad$script
 @@||gifshow.com/rest/kd/log/collect?v=$xhr
 @@||ksapisrv.com/rest/kd/log/collect?v=$xhr
 youtu.be,youtube.*##+js(nano-stb, resolve(1), *, 0.02)

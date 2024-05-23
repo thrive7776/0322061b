@@ -1,5 +1,6 @@
 # $badfilter & Exceptional
 ||edu.tw^$dnsrewrite=NOERROR,dnstype=AAAA
+|s1.hdslb.com^$dnsrewrite=NOERROR,dnstype=AAAA
 /(https?:\/\/)213\.32\.115\..{100,}/$badfilter
 /(https?:\/\/)217\.182\.11\..{100,}/$badfilter
 /(https?:\/\/)51\.195\.31\..{100,}/$badfilter

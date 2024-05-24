@@ -72,6 +72,7 @@
 ||cyberpolice.cn^
 ||dht.aelitis.com^$dnsrewrite=NOERROR
 ||dht.vuze.com^$dnsrewrite=NOERROR
+||drdump.com^
 ||edna.yahoo.net^
 ||gg*.whoscall.com^
 ||ip-api.com^

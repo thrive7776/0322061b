@@ -24,3 +24,5 @@ youtu.be,youtube.*##.ytp-gradient-top
 ||www.bing.com^$removeparam=FPIG
 ||www.bing.com^$removeparam=form
 ||www.bing.com^$removeparam=pc
+||www.bing.com^$removeparam=redig
+||www.bing.com^$removeparam=toWww

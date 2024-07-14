@@ -1,10 +1,26 @@
 /*csp*report$all
 /*error*report$all
+/*getheaderad$script
 /advertise$all
 /doubanio\.com\/\w{64,}/$script
-/*getheaderad$script
+9gag.com/*/recommend$script,xhr
 @@||gifshow.com/rest/kd/log/collect?v=$xhr
 @@||ksapisrv.com/rest/kd/log/collect?v=$xhr
+www.bing.com##.popup
 youtu.be,youtube.*##+js(nano-stb, resolve(1), *, 0.02)
 youtu.be,youtube.*##.ytp-chrome-top
 youtu.be,youtube.*##.ytp-gradient-top
+||9gag.com^$removeparam=ref
+||momoshop.com.tw^$removeparam=Area
+||momoshop.com.tw^$removeparam=cid
+||momoshop.com.tw^$removeparam=ctype
+||momoshop.com.tw^$removeparam=kw
+||momoshop.com.tw^$removeparam=mdiv
+||momoshop.com.tw^$removeparam=oid
+||momoshop.com.tw^$removeparam=recomd_id
+||momoshop.com.tw^$removeparam=sourcePageType
+||momoshop.com.tw^$removeparam=str_category_code
+||www.bing.com^$removeparam=FORM
+||www.bing.com^$removeparam=FPIG
+||www.bing.com^$removeparam=form
+||www.bing.com^$removeparam=pc

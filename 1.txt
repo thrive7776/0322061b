@@ -5,3 +5,6 @@
 www.bing.com##.popup
 ||9gag.com/*/recommend$script,xhr
 ||9gag.com^$removeparam=ref
+||www.bing.com^$removeparam=FORM
+||www.bing.com^$removeparam=form
+||www.bing.com^$removeparam=pc

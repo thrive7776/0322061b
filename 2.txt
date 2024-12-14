@@ -1,29 +1,26 @@
 # Tweaks
+#@@/^(g?img|gips|gs[ps]|[it]|pics)\d*\.baidu\.com$/
+#@@|baidu.com^
 @@/\.gov(\.(au|cn|hk|sg|taipei|tw|uk))?$/
-@@/^(g?img|gips|gs[ps]|[it]|pics)\d*\.baidu\.com$/
-@@|baidu.com^
 ||bat.bing.com^$badfilter
-||darkreader.org^
 ||edu.tw^$dnsrewrite=NOERROR,dnstype=AAAA
 ||imasdk.googleapis.com^$badfilter
 ||msg.ettoday.net^$badfilter
 # {gomediago, passport, reports, tbmsg, wappass, xla} baidu.com
-||baidu.com^$denyallow=ai.baidu.com|b2b.baidu.com|baijiahao.baidu.com|baike.baidu.com|bk.baidu.com|cloud.baidu.com|haokan.baidu.com|hiphotos.baidu.com|home.baidu.com|iknow.baidu.com|image.baidu.com|img.baidu.com|imgsa.baidu.com|imgsrc.baidu.com|index.baidu.com|ipv6.baidu.com|jingyan.baidu.com|m.baidu.com|map.baidu.com|news.baidu.com|openapi.baidu.com|pan.baidu.com|pcs.baidu.com|share.baidu.com|static.baidu.com|tbmsg.baidu.com|tieba.baidu.com|tiebapic.baidu.com|waf.baidu.com|wapbaike.baidu.com|wenku.baidu.com|www.baidu.com|xueshu.baidu.com|yiyan.baidu.com|yun.baidu.com|zhidao.baidu.com
-||bdstatic.com^$denyallow=code.bdstatic.com|dss0.bdstatic.com|dss1.bdstatic.com|gss0.bdstatic.com|mbdp01.bdstatic.com|nd-static.bdstatic.com|pannss.bdstatic.com|pic.rmb.bdstatic.com|pss.bdstatic.com|ss0.bdstatic.com|ss1.bdstatic.com|tb-video.bdstatic.com|tb1.bdstatic.com|tb2.bdstatic.com|tb3.bdstatic.com|tb5.bdstatic.com|vd3.bdstatic.com
+#||baidu.com^$denyallow=ai.baidu.com|b2b.baidu.com|baijiahao.baidu.com|baike.baidu.com|bk.baidu.com|cloud.baidu.com|haokan.baidu.com|hiphotos.baidu.com|home.baidu.com|iknow.baidu.com|image.baidu.com|img.baidu.com|imgsa.baidu.com|imgsrc.baidu.com|index.baidu.com|ipv6.baidu.com|jingyan.baidu.com|m.baidu.com|map.baidu.com|news.baidu.com|openapi.baidu.com|pan.baidu.com|pcs.baidu.com|share.baidu.com|static.baidu.com|tbmsg.baidu.com|tieba.baidu.com|tiebapic.baidu.com|waf.baidu.com|wapbaike.baidu.com|wenku.baidu.com|www.baidu.com|xueshu.baidu.com|yiyan.baidu.com|yun.baidu.com|zhidao.baidu.com
+#||bdstatic.com^$denyallow=code.bdstatic.com|dss0.bdstatic.com|dss1.bdstatic.com|dss2.bdstatic.com|dss3.bdstatic.com|exp-new.bdstatic.com|gss0.bdstatic.com|gss1.bdstatic.com|gss2.bdstatic.com|gss3.bdstatic.com|mbdp01.bdstatic.com|nd-static.bdstatic.com|pannss.bdstatic.com|pic.rmb.bdstatic.com|pss.bdstatic.com|ss0.bdstatic.com|ss1.bdstatic.com|ss2.bdstatic.com|ss3.bdstatic.com|tb-video.bdstatic.com|tb1.bdstatic.com|tb2.bdstatic.com|tb3.bdstatic.com|tb4.bdstatic.com|tb5.bdstatic.com|vd1.bdstatic.com|vd2.bdstatic.com|vd3.bdstatic.com|vd4.bdstatic.com|vd5.bdstatic.com
 # Malvertising
+||1108595013.rsc.cdn77.org^
+||1152394790.rsc.cdn77.org^
 ||15.197.212.58
 ||23.106.127.
 ||23.109.121.
 ||23.109.135.
-||88.208.22.1
-||88.208.22.2
-||88.208.22.3
-||88.208.22.4
-||173.234.13.36
-||173.234.13.37
-||173.234.13.38
-||173.234.13.39
-||173.234.13.40
+||88.208.22.
+||172.240.108.
+||172.240.127.
+||172.240.253.
+||173.234.13.
 ||192.243.59.
 ||192.243.61.
 ||203.195.121.

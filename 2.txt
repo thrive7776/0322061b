@@ -1,5 +1,6 @@
 # Tweaks
 @@/\.gov(\.(au|cn|hk|sg|taipei|tw|uk))?$/
+@@||tw.xingbar.com^
 ||bat.bing.com^$badfilter
 ||edu.tw^$dnsrewrite=NOERROR,dnstype=AAAA
 ||imasdk.googleapis.com^$badfilter
